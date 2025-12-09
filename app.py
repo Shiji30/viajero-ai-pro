@@ -1,7 +1,12 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
-from langchain_community.tools import DuckDuckGoSearchRun
+try:
+    from langchain_community.tools import DuckDuckGoSearchRun
+    DUCK_AVAILABLE = True
+except ImportError:
+    DUCK_AVAILABLE = False
+
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 import datetime
@@ -62,7 +67,13 @@ def generar_plan_completo():
         return
 
     # 1. Búsqueda Web Inteligente (Sin API Keys extra, usa DuckDuckGo anónimo)
-    search = DuckDuckGoSearchRun()
+    search = None
+    if DUCK_AVAILABLE:
+        try:
+            search = DuckDuckGoSearchRun()
+        except Exception:
+            search = None
+
     
     def buscar_datos_reales():
         # Consultas específicas para "engañar" al buscador y sacar precios
