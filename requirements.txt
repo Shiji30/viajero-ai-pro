@@ -1,5 +1,5 @@
 streamlit
 langchain-openai
 langchain-community
-duckduckgo-search
+langchain-core
 openai
