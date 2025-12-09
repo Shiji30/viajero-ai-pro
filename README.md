@@ -10,7 +10,7 @@ Este proyecto fue desarrollado como parte de un desafío de implementación de L
 ### 🔗 Enlace a la Aplicación Desplegada
 
 Puedes probar la aplicación en vivo aquí:
-➡️ **https://streamlit.io/cloud** (Reemplaza con tu URL)
+➡️ **[https://streamlit.io/cloud](https://viajero-ai-pro-ppg9h8tdfqcbnhm7pappbdl.streamlit.app)**
 
 ---
 
