@@ -25,7 +25,7 @@ Puedes probar la aplicación en vivo aquí:
 
 ## 💻 Arquitectura y Tecnología
 
-El proyecto sigue un enfoque de Ingeniería Avanzada (E1) utilizando el stack de Python y LangChain:
+El proyecto sigue un enfoque de Ingeniería Avanzada utilizando el stack de Python y LangChain:
 
 | Componente | Tecnología | Propósito |
 | :--- | :--- | :--- |
@@ -34,9 +34,6 @@ El proyecto sigue un enfoque de Ingeniería Avanzada (E1) utilizando el stack de
 | **Cerebro (LLM)** | `OpenAI (gpt-4o-mini)` | Generación del itinerario y análisis de datos de precios. |
 | **Tool Use / RAG** | `DuckDuckGoSearchRun` | Acceso a información en tiempo real (precios, clima, eventos). |
 
-### Diagrama Conceptual
-
-[Puedes incluir aquí un enlace a una imagen del diagrama de arquitectura si lo tienes.]
 
 ---
 
