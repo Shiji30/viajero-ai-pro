@@ -1,7 +1,7 @@
 # viajero-ai-pro
-# ✈️ ViajeroAI Pro: Planificador de Viajes con Cotizaciones en Tiempo Real
+# ViajeroAI Pro: Planificador de Viajes con Cotizaciones en Tiempo Real
 
-## 🌍 Descripción General del Proyecto
+## Descripción General del Proyecto
 
 **ViajeroAI Pro** es una solución avanzada de planificación de viajes que genera itinerarios personalizados y cotizaciones estimadas de vuelos y alojamiento. Aprovecha el poder de los Grandes Modelos de Lenguaje (LLMs) y técnicas de Generación Aumentada por Recuperación (RAG) para ofrecer planes de viaje realistas y actualizados.
 
@@ -10,11 +10,11 @@ Este proyecto fue desarrollado como parte de un desafío de implementación de L
 ### 🔗 Enlace a la Aplicación Desplegada
 
 Puedes probar la aplicación en vivo aquí:
-➡️ **[https://streamlit.io/cloud](https://viajero-ai-pro-ppg9h8tdfqcbnhm7pappbdl.streamlit.app)**
+**[https://streamlit.io/cloud](https://viajero-ai-pro-ppg9h8tdfqcbnhm7pappbdl.streamlit.app)**
 
 ---
 
-## 🛠️ Características Clave
+## Características Clave
 
 * **Personalización Profunda:** Genera itinerarios basados en Ciudad de Origen, Destino, Fechas exactas, Presupuesto e Intereses específicos (Gastronomía, Historia, Naturaleza, etc.).
 * **Cotización Estimada:** Utiliza la búsqueda web en tiempo real (DuckDuckGo) para encontrar rangos de precios actuales de vuelos y hoteles, proporcionando un presupuesto estimado total.
@@ -23,7 +23,7 @@ Puedes probar la aplicación en vivo aquí:
 
 ---
 
-## 💻 Arquitectura y Tecnología
+## Arquitectura y Tecnología
 
 El proyecto sigue un enfoque de Ingeniería Avanzada utilizando el stack de Python y LangChain:
 
@@ -37,7 +37,7 @@ El proyecto sigue un enfoque de Ingeniería Avanzada utilizando el stack de Pyth
 
 ---
 
-## 🚀 Cómo Usar la Aplicación Desplegada
+## Cómo Usar la Aplicación Desplegada
 
 1.  **Obtener tu API Key:** Consigue una clave de API válida de [OpenAI Platform].
 2.  **Configuración:** Abre la barra lateral (Panel de Configuración) e introduce tu **OpenAI API Key**.
@@ -49,7 +49,7 @@ El modelo te devolverá dos secciones: una **Cotización Estimada** y un **Itine
 
 ---
 
-## ⚙️ Configuración y Ejecución Local
+## Configuración y Ejecución Local
 
 Si deseas ejecutar este proyecto en tu propia máquina (entorno local):
 
@@ -87,7 +87,7 @@ Si deseas ejecutar este proyecto en tu propia máquina (entorno local):
 
 ---
 
-## 📝 Archivos del Proyecto
+## Archivos del Proyecto
 
 * **`app.py`**: El código principal de la aplicación Streamlit y la lógica de LangChain.
 * **`requirements.txt`**: Listado de dependencias Python necesarias para el despliegue.
